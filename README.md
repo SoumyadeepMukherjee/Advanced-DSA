@@ -1,5 +1,4 @@
-# Hacktoberfest22-Advanced-DSA 
-![](banner.png)
+# Hacktoberfest22-Advanced-DSA ![](banner.png)
 ## About
 This Repository's sole purpose is to help beginners and as well as experienced people contribute to Open Source Programming. The repository consists of a large number of Data Structures and Algorithms implemented in more than one language. The repository also contains some of the competitive program solutions. As a part of Hacktoberfest Code of Conduct no spamming or irrelevant PRs will be accepted.
 
