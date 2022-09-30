@@ -2,13 +2,13 @@
 **Definition:**
 Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge u v, vertex u comes before v in the ordering.
 ## DFS Approach
-Topological Sort only exists for a Directed Acyclic Graph(DAG)
-Therefore if a cycle exists in the graph then Topological Sort is not possible.
+Topological Sort only exists for a Directed Acyclic Graph(DAG), 
+therefore if a cycle exists in the graph then Topological Sort is not possible.<br>
 Hence, we have to check for cycles in the graph.
-For this purpose we keep 2 visited arrays.
-visited[] array keep a track of all the nodes which have been visited so far
-dfsvisited[] array keeps a track of all the nodes in the current branch on recursion tree
-A cycle exists in a directed graph only when a node in the current branch in the recursion tree is visited again ie 
+For this purpose we keep 2 visited arrays.<br>
+visited[] array keep a track of all the nodes which have been visited so far.<br>
+dfsvisited[] array keeps a track of all the nodes in the current branch on recursion tree.<br>
+A cycle exists in a directed graph only when a node in the current branch in the recursion tree is visited again ie.
 ``` 
     if(dfsvisited[neigh]){
         return true;
@@ -37,10 +37,10 @@ for this we require a LIFO order -> stack<br>
 Therefore, in the postorder we add the particular vertex itself once we have got all the neighbours.
 
 ## Kahn's Algorithm Approach
-Kahn's algorithm works on the basic principle that a vertex on which no edge is incident should come come in Topological Sort.
-Therefore we keep an inDegree array and use BFS to add the vertices with indegree 0 to the Topological Order.
-Once we add these edges we also decrease the indegree of the adjacent vertices.
-Then we continue with the same process.
+Kahn's algorithm works on the basic principle that a vertex on which no edge is incident should come come in Topological Sort.<br>
+Therefore we keep an inDegree array and use BFS to add the vertices with indegree 0 to the Topological Order.<br>
+Once we add these edges we also decrease the indegree of the adjacent vertices.<br>
+Then we continue with the same process.<br>
 If all vertices are not visited then cycle exists 
 ```
 if(idx != n){//cycle exists
