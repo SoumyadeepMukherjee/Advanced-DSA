@@ -1,9 +1,11 @@
 ## Dynamic Programming Approach
-**Recurrence Relation:**
+**Recurrence Relation:**<br>
+```
 dp[i] = 1 + max( dp[j] ) where 0 < j < i and arr[j] < arr[i]; or
 dp[i] = 1, if no such j exists.
+```
 
-**Time Complexity:** O(n^2)
+**Time Complexity:** O(n^2)<br>
 **Space Complexity:** O(n)
 
 ## Binary Search Approach
