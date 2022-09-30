@@ -1,3 +1,5 @@
+#Longest Increasing Subsequence
+**Problem: ** Given an integer array nums, return the length of the longest strictly increasing subsequence.
 ## Dynamic Programming Approach
 **Recurrence Relation:**<br>
 ```
