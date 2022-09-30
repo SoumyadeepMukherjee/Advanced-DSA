@@ -30,8 +30,8 @@ executes denoting that Topological Sort is not possible
 otherwise,
 we keep popping the top of the stack and add the popped elements to an array denoting the Topological Ordering of vertices. 
 
-**LOGIC:**
-vtx->nbr
+**LOGIC:**<br>
+vtx->nbr<br>
 Since we want a vertex(vtx) before its neighbours(nbr) in topological sort, we have no choice but to go deep into recursion and first find all the neighbours and then print vtx first and then all its neghbours.<br>
 for this we require a LIFO order -> stack<br>
 Therefore, in the postorder we add the particular vertex itself once we have got all the neighbours.
