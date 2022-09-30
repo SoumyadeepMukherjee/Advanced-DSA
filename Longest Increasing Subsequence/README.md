@@ -24,5 +24,5 @@ This is because we want to find LIS definition is strictly increasing
 if we replaced only > elements with num then sb would contain multiple occurences of the same number and we would have found longest non strictly increasing subsequence instead <br>
 by replacing >= elements we ensure that sb contains only unique elements thereby ensuring that we get longest strictly increasing subsequence
 
-**Time Complexity:** O(nlogn(n))<br>
+**Time Complexity:** O(nlog(n))<br>
 **Space Complexity:** O(1)
