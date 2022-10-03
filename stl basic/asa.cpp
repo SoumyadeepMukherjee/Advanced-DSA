@@ -2,11 +2,11 @@
 using namespace std;
 int main()
 {
-	int t;
+	int tc;
 	cin>>tc;
 	while(tc--)
 	{
-
+         cout<<"helooo";
 	}
 	return 0;
 }
