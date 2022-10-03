@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javascript code</title>
+    <script language="Javascript">
+      function is_Empty(theField) {
+
+              if (theField.value == "")
+              {
+                  alert("NAME SHOULD NOT BE BLANK..");
+                  return true;
+              }
+              else
+              {
+                  return false;
+              }
+    </script>
+  </head>
+
+  <body>
+    <h2>CHECK FOR NOT EMPTY FIELD</h2>
+    <form name="myForm" method="get">
+      YOURNAME:<input
+        type="text"
+        name="fullname"
+        onblur="is_Empty(this.form.fullname)"
+      />
+      <br />
+      <input type="button" name="submit" value="submit the form" />
+    </form>
+  </body>
+</html>
