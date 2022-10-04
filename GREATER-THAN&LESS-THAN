@@ -1,0 +1,10 @@
+print("Kindly give first number as an input: ")
+a = input();
+a = int(a);
+print("Kindly give Second number as an input: ")
+b = input();
+b = int(b);
+if a > b:
+    print(a, " is greater than");
+else:
+    print(b, " is greater than");
